@@ -33,7 +33,7 @@ function createArticleHTML(data) {
     const imgElement = document.createElement('img');
     imgElement.className = 'service-arrow resourses-service-arrow back-btn';
     imgElement.alt = 'arrow';
-    const cloudinaryImageUrl ="https://res.cloudinary.com/drkjdderc/image/upload/v1707576249/left-arrow_vpjg8g.png"
+    const cloudinaryImageUrl ="https://res.cloudinary.com/drkjdderc/image/upload/v1708352619/back-arrow_t18pdn.png"
     imgElement.src = cloudinaryImageUrl;
 
     linkElement.appendChild(imgElement);

@@ -92,8 +92,14 @@
     }
     }
 .resourses-head{
-    font-size: 50px;
-    font-weight: 700;
+    @media screen and (min-width: 370px) {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    @media screen and (min-width: 836px) {
+        font-size: 50px;
+
+    }
 }
 .button-icon {
     width: 6.65px;
@@ -188,8 +194,6 @@
     overflow: visible;
 }
 
-
-
 .swiper-slide-visible{
     @media screen and (min-width: 836px) {
   
@@ -210,3 +214,62 @@
 
     
 }
+.slider-content{
+    margin-top: 38px;
+}
+
+.slick-track{
+    display: flex;
+    margin-left: 0 !important;
+    gap: 37px;
+    width: 100% !important;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slider .slick-slide{
+    @media screen and (min-width: 836px) {
+  
+    }
+    @media screen and (min-width: 1444px) {
+     filter: blur(4px);
+    }
+
+}
+
+.slider .slick-active{
+    @media screen and (min-width: 836px) {
+  
+    }
+    @media screen and (min-width: 1444px) {
+        filter: none;
+    }
+
+    
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    font-size: 0;
+}
+
+.slider .slick-arrow.slick-prev {
+    background: url('../../public/images/left-arrow.png') no-repeat center center; 
+    width: 40px; 
+    height: 40px; 
+    z-index: 10;
+  }
+  
+
+  .slick-arrow.slick-next {
+    background: url('./images/icons.svg#icon-right') no-repeat center center; 
+    background-size: contain; 
+    width: 40px; 
+    height: 40px; 
+    z-index: 10;
+  }
+
+.slick-arrow.slick-disabled{}
+
