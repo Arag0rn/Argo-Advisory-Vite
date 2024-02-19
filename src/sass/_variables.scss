@@ -1,0 +1,30 @@
+
+$Argo-main: #0D7680;
+
+
+@mixin main-btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 227px;
+    height: 66px;
+    gap: 10px;
+    border-radius: 39px;
+    background-color: $Argo-main;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.8, 1);
+    &:hover{
+      background-color: var(--champaing-pink, #E8C5A4);
+    }
+
+
+  }
+
+  .animate__medium {
+    animation-duration: 1.5s ;
+  }

@@ -1,0 +1,136 @@
+.hero{
+    @media screen and (max-width: 836px) {
+    padding-top: 70px;
+}
+    padding-top: 170px;
+
+}
+.hero-container{
+    @media screen and (min-width: 836px) {
+       display: flex;
+       justify-content: space-between;
+    }
+
+}
+.wellcome-box{
+    @media screen and (min-width: 836px) {
+     display: flex;
+    width: 314px;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+    flex-shrink: 0;
+    }
+    @media screen and (min-width: 1444px) {
+    width: 522px;
+    }
+   
+}
+
+.hero-head {
+    margin-top: 11px;
+    font-size: 40px;
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 67.2px */
+    @media screen and (min-width: 1444px) {
+         font-size: 48px;
+        }
+}
+
+.hero-txt{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero-btn{
+    @media screen and (max-width: 836px) {
+        margin-top: 30px;
+       }
+
+    @include main-btn;
+    
+}
+
+.hero-image-box{
+    @media screen and (min-width: 836px) {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end
+        
+       }
+    @media screen and (min-width: 1444px) {
+        position: relative;
+        padding-right: 41px;
+    }
+}
+
+.image2-wraper {
+    @media screen and (min-width: 836px) {
+        width: 195px;
+        height: 264px;
+        border-radius: 22px;
+        background-image: url(/images/hero-img1.jpg);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+        background-size: cover;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        z-index: 2;
+    }
+    @media screen and (min-width: 1444px) {
+        width: 282px;
+        height: 347px;
+        margin-top: 14px;
+       
+
+    }
+}
+
+.image1-wraper {
+    @media screen and (min-width: 836px) {
+        width: 255px;
+        height: 183px;
+        border-radius: 22px;
+        background-image: url(/images/hero-img2.png);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+        background-size: cover;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        
+    }
+    @media screen and (min-width: 1444px) {
+        width: 469px;
+        height: 272px;
+        z-index: -1;
+        margin-right: 12px; 
+    }
+}
+
+.hero-wave1{
+    @media screen and (min-width: 370px) {
+       display: none;
+
+    }
+    @media screen and (min-width: 836px) {
+        display: block;
+         position: absolute;
+        top: 55px;
+        width: 357px;
+        right: -1px;
+    }
+
+    @media screen and (min-width: 1444px) {
+        width: 632px;
+        z-index: 1;
+        top: -28px;
+        right:0;
+}
+    
+}
+

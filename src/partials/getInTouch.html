@@ -1,0 +1,58 @@
+<section class="getInTouch" id="getInTouch">
+    <div class="container getInTouch-container">
+        <div class="getInTouch-leftBox">
+        <h2 class="getInTouch-head">Get in Touch With Us</h2>
+        <h3 class="getInTouch-subhead">Let's discuss your company and explore 
+            how we can be of assistance.</h3>
+
+        <div class="contact-box">
+            <h4 class="contact-box-head">Contact details:</h4>
+            <div class="email">
+                <div class="email-svg"> 
+                    <svg        
+                  width="17"
+                   height="15"><use href="./images/icons.svg#icon-mail"></use>
+                  </svg> </div>
+                   <div class="address-link">
+                    <span class="email-txt">Email</span>
+                    <a class="email-link" href="mailto:office@argo-advisory.com">office@argo-advisory.com</a>
+                    </div>
+            </div>
+            <div class="address">
+                <div class="address-svg">  
+                    <svg        
+                width="14"
+                    height="20"><use href="./images/icons.svg#icon-Address"></use>
+                   </svg> </div>
+                   <div class="address-link">
+                        <span class="email-txt">Adress</span>
+                        <a class="email-link email-link2" href="https://maps.app.goo.gl/5YPuzYdHi1YYF12b9" class="address-link">Postfach Elterlein Platz 12, Wien, 1172</a>
+                    </div> 
+            </div>
+        </div>
+    </div>
+    <div class="getInTouch-rightBox">
+
+        <h3 class="right-box-head">Send Us a Message</h3>
+        <form class="getInTouch-form" id="my-form" action="https://formspree.io/f/mjvnbkwb" method="POST" >
+            <label for="name">Full Name*</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" minlength="3" maxlength="20" >
+            
+            <label for="company-name">What’s the name of your company*</label>
+            <input type="text" id="company-name" name="company-name" placeholder="John Doe Company" minlength="5" maxlength="20" >
+            
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" placeholder="johndoe@example.com" minlength="3" maxlength="30">
+            
+            <label for="phone">Phone Number*</label>
+            <input type="tel" id="phone" name="phone" placeholder="+49123456789" minlength="5" maxlength="20" >
+            
+            <label for="message">Message*</label>
+            <textarea id="message" name="message" ></textarea>
+        
+            <button class="getInTouch-btn" type="submit">Send</button>
+            <p class="form-status" id="my-form-status"></p>
+        </form>
+    </div>
+    </div>
+</section>

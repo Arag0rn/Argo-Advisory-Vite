@@ -1,0 +1,85 @@
+.our-service{
+    @media screen and (min-width: 370px) {
+        padding-top: 218px;
+       }
+       @media screen and (min-width: 836px) {
+  
+      padding-top: 182px;
+    }
+
+
+    
+}
+
+.our-service-head{
+    @media screen and (min-width: 370px) {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+       }
+
+       @media screen and (min-width: 1444px) {
+        font-size: 50px;
+       }
+ 
+    
+}
+
+.service-wraper{
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 35px;
+}
+
+.service-card{
+    @media screen and (min-width: 370px) {
+        display: flex;
+        width: 298px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 11px;
+        flex-shrink: 0;
+       }
+       @media screen and (min-width: 1444px) {
+        min-height: 430px;
+       }
+ 
+}
+
+.card-head{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 20px;
+    font-weight: 400;
+    height: 113px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+
+}
+
+.readMore{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.service-svg {
+    width: 43px;
+    height: 43px;
+  }
+
+.readMore-box{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.service-arrow{
+    stroke:  currentColor;
+    fill:  currentColor;
+}

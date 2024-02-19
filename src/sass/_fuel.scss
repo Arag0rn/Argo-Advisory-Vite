@@ -1,0 +1,115 @@
+.fuel{
+    padding-top: 161px;
+}
+
+.fuel-container{
+    display: flex;
+    gap: 82px;
+}
+
+.fuel-image-box{
+    @media screen and (min-width: 370px) {
+        display: none;
+       }
+
+       @media screen and (min-width: 1444px) {
+           display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            position: relative;
+            padding-top: 335px;
+            width: 540px;
+    
+       }
+ 
+    
+}
+
+.fuel-image1 {
+    position: absolute;
+    top: 163px;
+    right: 0;
+    width: 262px;
+    height: 189px;
+    border-radius: 22px;
+    background-image: url(/images/fuel/clock.jpg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+   
+}
+
+.fuel-image2 {
+    width: 337px;
+    height: 211px;
+    border-radius: 22px;
+    background-image: url(/images/fuel/fuel-image2.jpg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.fuel-box{
+    display: flex;
+    flex-direction: column;
+    width: 661px;
+}
+
+.fuel-head {
+    font-size: 49px;
+    font-weight: 700;
+
+}
+
+.fuel-txt{
+    max-width: 623px;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.fuel-list{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 51px;
+}
+
+.fuel-list-item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.fuel-list-txt{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.list-round{
+    @media screen and (min-width: 836px) {
+        width: 23px;
+        height: 23px;
+      
+    }
+    @media screen and (min-width: 1444px) {
+        width: 25px;
+    height: 25px;
+    background-color: $Argo-main;
+    border-radius: 50%;
+      
+    }
+   
+}
+
+.fuel-wave{
+    position: absolute;
+    width: 540px;
+    height: 361px;
+    top:65px; 
+    z-index: 1; 
+
+}

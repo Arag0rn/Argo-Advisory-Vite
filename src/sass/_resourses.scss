@@ -1,0 +1,212 @@
+.resourses{
+    @media screen and (min-width: 370px) {
+        padding-top: 100px;
+       }
+
+    @media screen and (min-width: 836px) {
+        padding-top: 170px;
+       }
+       @media screen and (min-width: 1444px) {
+            padding-top: 166px;
+       }
+   
+    
+}
+
+.resourses-container{
+    overflow: hidden;
+} 
+.resourses-btn-box{
+    display: flex;
+    justify-content: end;
+}
+.resourses-btn{
+    @media screen and (min-width: 370px) {
+        margin-top: 83px;
+        display: flex;
+        width: 227px;
+        height: 66px;
+        padding: 10px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 39px;
+        border: 1px solid $Argo-main;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        background: white;
+        color: $Argo-main;
+        font-size: 20px;
+        font-weight: 300;
+        transition: background 250ms cubic-bezier(0.4, 0, 0.8, 1);
+        &:hover{
+            background: var(--champaing-pink, #E8C5A4);
+            cursor: pointer;
+        }
+       }
+       
+
+  
+       @media screen and (min-width: 1444px) {
+        margin-top: 0;
+       }
+
+}
+.swiper{
+    margin-top: 35px;
+}
+.swiper-action{
+    @media screen and (min-width: 836px) {
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-end;
+       }
+       @media screen and (min-width: 1444px) {
+        margin-top: 135px;
+       }
+
+}
+
+.swiper-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.button-prev, .button-next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid $Argo-main;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.8, 1),
+                background-color 250ms cubic-bezier(0.4, 0, 0.8, 1);
+    &:hover{
+        cursor: pointer;
+        border-color: #E8C5A4;
+        background-color: $Argo-main;
+        .button-icon{
+            stroke:  #E8C5A4;
+        } 
+    }
+    }
+.resourses-head{
+    font-size: 50px;
+    font-weight: 700;
+}
+.button-icon {
+    width: 6.65px;
+    height: 13.3px;
+    stroke: $Argo-main;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.8, 1)
+}
+
+.resourses-img-block{
+    border-radius: 22px;
+    width: 316px;
+    height: 173px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    // background-image: linear-gradient(254deg, rgba(232, 197, 164, 0.40) 7.31%, rgba(14, 119, 128, 0.40) 88.36%), url(../images/resourses/res1.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    
+} 
+
+    // .resourses-img-block2{
+    //     background-image: linear-gradient(254deg, rgba(232, 197, 164, 0.40) 7.31%, rgba(14, 119, 128, 0.40) 88.36%), url(../images/resourses/res5.jpg);
+    // }
+
+    // .resourses-img-block3{
+    //     background-image: linear-gradient(254deg, rgba(232, 197, 164, 0.40) 7.31%, rgba(14, 119, 128, 0.40) 88.36%), url(../images/resourses/res2.jpg);
+    // }
+
+    // .resourses-img-block4{
+    //     background-image: linear-gradient(254deg, rgba(232, 197, 164, 0.40) 7.31%, rgba(14, 119, 128, 0.40) 88.36%), url(../images/resourses/res4.jpg);
+    // }
+
+    // .resourses-img-block5{
+    //     background-image: linear-gradient(254deg, rgba(232, 197, 164, 0.40) 7.31%, rgba(14, 119, 128, 0.40) 88.36%), url(../images/resourses/res3.png);
+    // }
+
+    // .resourses-img-block6{
+    //     background-image: linear-gradient(254deg, rgba(232, 197, 164, 0.40) 7.31%, rgba(14, 119, 128, 0.40) 88.36%), url(../images/resourses/res6.jpg);
+    // }
+
+
+
+.resoursed-card{
+    display: flex;
+    width: 316px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.resourses-txt-block-head{
+    height: 56px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+.resourses-txt-block-txt{
+    width: 291px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.resourses-readMore-box{
+    margin-top: 21px;
+    cursor: default;
+}
+
+
+
+.resourses-service-arrow{
+    stroke: $Argo-main;
+    fill: $Argo-main;
+}
+
+.resourses-readMore{
+    color:$Argo-main;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.8, 1);
+    &:hover{
+        color: #FCD0B1;
+        cursor: pointer;
+    }
+}   
+
+.resourses-readMore:hover .service-arrow {
+    stroke: #FCD0B1;
+    fill: #FCD0B1;
+}
+
+.swiper {
+    overflow: visible;
+}
+
+
+
+.swiper-slide-visible{
+    @media screen and (min-width: 836px) {
+  
+       }
+       @media screen and (min-width: 1444px) {
+        filter: blur(4px);
+       }
+  
+}
+
+.swiper-slide-fully-visible{
+    @media screen and (min-width: 836px) {
+  
+    }
+    @media screen and (min-width: 1444px) {
+        filter: none;
+    }
+
+    
+}

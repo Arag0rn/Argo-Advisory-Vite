@@ -1,0 +1,19 @@
+.partners{
+    padding-top: 155px;
+}
+
+.partners-head{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+}
+
+.partners-box{
+    margin: 0 auto;
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 84px;
+}

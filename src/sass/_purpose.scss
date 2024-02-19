@@ -1,0 +1,122 @@
+.statementofPurpose{
+    margin-top: 296px;
+    position: relative;
+}
+
+.purpose-container{
+    display: flex;
+    gap: 135px;
+}
+
+.purpose-left-box{
+    @media screen and (min-width: 370px) {
+        position: relative;
+        display: none;
+
+    }
+    @media screen and (min-width: 1444px) {
+        padding-top: 217px;
+        width: 527px;
+        display: flex;
+        flex-direction: column;
+    }
+    }
+   
+
+.purpose-img1 {
+    position: absolute;
+    top: 017px;
+    right: 0;
+    width: 330px;
+    height: 225px;
+    border-radius: 22px;
+    background-image: url(/images/purpose/purpose1.jpg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.purpose-img2 {
+   
+    width: 397px;
+    height: 247px;
+    border-radius: 22px;
+    background-image: url(/images/purpose/purpose2.jpg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.purpose-wave{
+    top: -50px;
+    width: 100%;
+   position: absolute;
+   z-index: -1;
+}
+
+.purpose-wave2{
+    @media screen and (min-width: 370px) {
+        position: absolute;
+        top: -240px;
+        right: 0;
+        z-index: -1;
+        width: 450px;
+        height: 217px;
+        transform: rotateY(180deg);
+
+    }
+    @media screen and (min-width: 836px) {
+        width: 482px;
+      
+    }
+    @media screen and (min-width: 1444px) {
+        display: none;
+     
+    }
+ }
+
+ .purpose-wave3{
+    @media screen and (min-width: 370px) {
+        position: absolute;
+        bottom: -240px;
+        left: 0;
+        z-index: -1;
+        width:400px;
+        height: 217px;
+    }
+    @media screen and (min-width: 836px) {
+        width: 482px;
+        height: 217px;
+
+    }
+    @media screen and (min-width: 1444px) {
+        display: none;
+     
+    }
+ }
+
+.purpose-right-box{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    max-width: 597px;
+}
+
+.purpose-head{
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.purpose-txt{
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.purpose-txt2{
+    margin-top: 18px;
+}

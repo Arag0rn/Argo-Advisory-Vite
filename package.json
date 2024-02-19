@@ -1,0 +1,29 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://arag0rn.github.io/ARGO-Advisori/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "animate.css": "4.1.1",
+    "axios": "^1.6.7",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "jquery": "^3.7.1",
+    "modern-normalize": "^1.1.0",
+    "owl.carousel": "^2.3.4",
+    "select2": "^4.1.0-rc.0",
+    "swiper": "^11.0.5",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "sass": "^1.71.0",
+    "vite": "^5.1.0",
+    "vite-plugin-html": "^3.2.2"
+  }
+}

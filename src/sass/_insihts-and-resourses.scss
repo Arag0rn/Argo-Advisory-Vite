@@ -1,0 +1,212 @@
+.insihts-and-resourses{
+    @media screen and (min-width: 370px) {
+        padding-top: 70px;
+    }
+    padding-top: 193px;
+}
+
+.resourses-list-left-box{
+ 
+
+    @media screen and (min-width: 836px) {
+        width: 359px;
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (min-width: 1444px) {
+      width: 605px; 
+    }
+    
+}
+
+.resourses-list-left-box-head{
+    @media screen and (min-width: 370px) {
+        font-size: 50px;
+        font-weight: 700;
+    }
+    @media screen and (min-width: 836px) {
+
+        font-size: 50px;
+        font-weight: 700;
+    }
+    @media screen and (min-width: 1444px) {
+
+    }
+ 
+}
+
+.resourses-list-left-box-txt{
+    @media screen and (min-width: 370px) {
+        width: 310px;
+        margin-top: 19px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    @media screen and (min-width: 836px) {
+        width: 359px;
+    }
+    @media screen and (min-width: 1444px) {
+        width: 605px;
+    }
+
+}
+
+.resourses-list-left-btn{
+    margin-top: 50px;
+    @include main-btn;
+ 
+}
+
+.resourses-list{
+    @media screen and (min-width: 836px) {
+        margin-top: 83px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-content: center;
+        padding-bottom: 87px;
+    }
+    @media screen and (min-width: 1444px) {
+        gap: 41px;
+        margin-top: 149px;
+        padding-bottom: 100px;
+    }
+
+}
+
+.resourses-list-box{
+    @media screen and (min-width: 836px) {
+        display: flex;
+        gap: 59px;
+      }
+      @media screen and (min-width: 1444px) {
+        gap: 142px;
+      }
+
+   
+}
+
+.resourses-image-wraper{
+
+    @media screen and (min-width: 836px) {
+      position: relative;
+        margin-top: 174px;
+        width: 217px;
+        height: 154px;
+        border-radius: 22px;
+        background-image: url(/images/insihts.jpg);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+        background-size: cover;
+        background-position-x: center;
+        background-repeat: no-repeat;
+    }
+    @media screen and (min-width: 1444px) {
+        width: 436px;
+        height: 291px;
+    }
+    
+}
+
+.resourses-wave1{
+    @media screen and (min-width: 370px) {      
+    display: none;
+  }
+    @media screen and (min-width: 836px) {
+            display: block;  
+            position: absolute;
+            width: 342px;
+            height: 179px;
+            right: 0;
+            top: 44%;
+            z-index: -2;
+            transform: rotate3d(0, 0, 10, 180deg);
+
+      }
+      @media screen and (min-width: 1444px) {
+            width: 536px;
+            height: 272px;
+      }
+ 
+}
+
+.resourses-wave2{
+    @media screen and (min-width: 370px) {      
+        display: none;
+    }
+    @media screen and (min-width: 836px) {
+        display: block;  
+        position: absolute;
+        width: 342px;
+        height: 179px;
+        bottom: 60%;
+        z-index: -1;
+  }
+  @media screen and (min-width: 1444px) {
+        width: 536px;
+        height: 272px;
+  }
+
+}
+
+.resourses-list-head{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.articles-list-item{
+    @media screen and (min-width: 370px) {
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 100px;
+  }
+  @media screen and (min-width: 1444px) {
+      width: 1051px;
+  }
+}
+
+.articles-list-head-main{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.articles-list-head{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.back-btn{
+    width: 40px;
+    height: 40px;
+    &:hover{
+     transform: scale(105%);
+    }
+    cursor: pointer;
+}
+
+.insihts-and-resourses-card{
+    @media screen and (max-width: 836px) {
+       margin-top: 40px;
+       &:last-child{
+        margin-bottom: 40px;
+       }
+    }
+}
